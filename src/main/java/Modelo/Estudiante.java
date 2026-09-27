@@ -15,10 +15,10 @@ public class Estudiante {
     private double notaDesarrollo;
     private double notaDefinitiva;
 
-    public Estudiante(String codigo, String nombre, int esTecnologia, double notaDesarrollo, double notaDefinitiva) {
+    public Estudiante(String codigo, String nombre, int Tecnologia, double notaDesarrollo, double notaDefinitiva) {
         this.codigo = codigo;
         this.nombre = nombre;
-        this.Tecnologia = esTecnologia;
+        this.Tecnologia = Tecnologia;
         this.notaDesarrollo = notaDesarrollo;
         this.notaDefinitiva = notaDefinitiva;
     }
@@ -31,7 +31,7 @@ public class Estudiante {
         return nombre;
     }
 
-    public int getEsTecnologia() {
+    public int getTecnologia() {
         return Tecnologia;
     }
 
