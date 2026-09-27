@@ -11,7 +11,7 @@ package Modelo;
 public class Estudiante {
     private String codigo;
     private String nombre;
-    private int Tecnologia; // 1 = Sí, 2 = No
+    private int Tecnologia;
     private double notaDesarrollo;
     private double notaDefinitiva;
 
